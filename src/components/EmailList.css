@@ -1,0 +1,39 @@
+.emailList {
+  flex: 0.8;
+  border-left: 1px solid whitesmoke;
+  padding: 5px;
+}
+
+.emailList__settings {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid whitesmoke;
+  background-color: white;
+  z-index: 99;
+}
+
+.emailList__sections {
+  position: sticky;
+  top: 0;
+  display: flex;
+  background-color: white;
+  border-bottom: 1px solid whitesmoke;
+  z-index: 99;
+}
+
+.emailList__list {
+  overflow-y: scroll;
+  height: 72vh;
+  padding-bottom: 20px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.emailList__list::-webkit-scrollbar {
+  display: none;
+}
